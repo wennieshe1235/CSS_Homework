@@ -7,8 +7,6 @@
 body{
     background-image: url(img/html_bg.png);
     font-family: Arial, 微軟正黑體;
-    width: 1600px;
-    height: 957px;
 }
 
 .main{
@@ -19,6 +17,7 @@ body{
     margin: 50px auto;
     padding: 50px ;
     box-sizing: border-box;
+    border-radius: 30px;
 }
 
 h1{
@@ -36,15 +35,11 @@ h2{
 
 ul{
     list-style: none;
-    
 }
 
 li{
-    width: 200px;
+    width: 230px;
     float: left;
-    margin-left: 25px;
-    
-    
 }
 
 .box{
@@ -54,7 +49,8 @@ li{
     height: 460px;
     padding: 30px 10px;
     box-sizing: border-box;
-    
+    margin: 0 auto;
+    border-radius: 30px;
 }
 
 h3{
@@ -63,7 +59,6 @@ h3{
     text-align: center;
     margin-bottom: 180px;
     /*h3的寬度繼承div class="box*/
-    
 }
 
 p{
@@ -72,7 +67,9 @@ p{
     text-align: left;
     width: 150px;
     margin: 0px auto;
-   
-    
+}
 
+.center{
+    margin: 0 auto;
+    width: fit-content;
 }
